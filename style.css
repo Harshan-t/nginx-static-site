@@ -12,14 +12,18 @@
     background-position: center;
     z-index: -1;
 }
-.body{
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.item{
+    font-family:sans-serif;
     background-color: rgb(255, 255, 255);
     background-repeat: no-repeat;
-    float: right;
-    margin-right: 390px;
-    margin-top: 190px;
-    height: 500px;
-    width: 300px;
+    height: auto;
+    width: 350px;
     border-radius: 10px;
 }
 .txt{
@@ -29,8 +33,4 @@
 .hr{
     width: 93%;
     color: rgb(59, 54, 54);
-}
-.lst{
-    margin-top: 3px;
-    font-size: 10px;
 }
